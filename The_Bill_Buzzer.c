@@ -60,8 +60,5 @@ int main () {
     if (on_ac == 'y') {
         printf("Also ensure minimal usage of your air conditioner!");
     }
-    else if (on_ac != 'n' && on_ac != 'y') {
-        printf("Invalid input");
-    }
     return 0;
 }
