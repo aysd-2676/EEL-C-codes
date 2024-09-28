@@ -33,15 +33,19 @@ int main () {
     if (on_num <= appliances && appliances != 0) {
         if (on_num == appliances && on_num > 3 && appliances != 0) {
         printf("You should control your electricity consumption as it wastes energy and increases bill!\n");
+        // Max usage case
     }
     else if (on_num >= appliances/2 && on_num > 2 && on_num != appliances) {
         printf("Ok, but you could further reduce you consumption.\n");
+        // Most usage case
     }
     else {
         printf("Good your electric consumption is as it should be, keep it up!\n");
+        // Optimum usage case
     }
     }
     else if (appliances == 0) {
+        // if user mentions having no appliances
         printf("Are you sure you have no appliances in your living room? (ans y or n)\n");
         scanf("%s", &ensure);
         if (ensure == 'y') {
@@ -59,6 +63,7 @@ int main () {
     }
     if (on_ac == 'y') {
         printf("Also ensure minimal usage of your air conditioner!");
+        // Output for minimal usage of air conditioners
     }
     return 0;
 }
