@@ -32,6 +32,20 @@ I realized that people where using more electricity than they actually needed, s
 
 Then if the usage of appliance is less than 50% than we appreciate them to conserve energy and if it is more than that then we ask them to lower there consumption. Then if someone has air conditioner and if they use then we convey them it use as less as possible
 
+Begin
+  Initiate integers and characters which ask the user to input the no. of lights, fans, in their living room. Whether they have tv or an ac. Integer to ask the no. of appliances used. character to ask whether the ac was used.
+ if Number of appliances used <= appliances && appliances != 0) {
+        if (on_num == appliances && Number of appliances used > 3 && appliances != 0) {
+        printf("You should control your electricity consumption as it wastes energy and increases bill!\n");
+    else if Number of appliances used >= appliances/2 && Number of appliances used > 2 && Number of appliances used != appliances) {
+        printf("Ok, but you could further reduce you consumption.\n");
+    else 
+        print "Good your electric consumption is as it should be, keep it up!\n");
+    else if (appliances == 0)
+    if the user's ac is on
+        print "Also ensure minimal usage of your air conditioner!"
+ End
+
 Stage 4: Prototype: -
     To ensure that the end user is aware of the fact that conservation of energy is necessary, depending upon the ideas in the previous step.
     The program has been written in V.S. Code in the C language. In this program integral variables and character variables are initiated for the user to input the information asked in the code. It is written in if - else if - else structure and nested if structure. For wrong inputs, the “Invalid Output!” message is displayed wherever necessary.
