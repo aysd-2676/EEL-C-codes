@@ -1,4 +1,4 @@
-// This is a code to manage electrical appliances in a house a calculate the bill
+// This is a code to ensure minimal usage of electrical appliances in the living room of the end user
 
 #include <stdio.h>
 
