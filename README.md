@@ -7,7 +7,7 @@ Stage 1: Empathize, Research: -
 
 Stage 2: Define—State Your Users' Needs and Problems: -
  
-Following are the points to reduce the electricity consumption
+Following are the points to reduce the electricity consumption:
  
 Environmental Benefits
 Following are some of the environmental benefits: -
