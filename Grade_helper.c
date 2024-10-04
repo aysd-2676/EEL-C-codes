@@ -108,7 +108,7 @@ int main ()
                     counselling++;
                 } while (counselling == 'y' || counselling == 'Y');
             } 
-            } else {
+            }} else {
             printf("You have failed in the semester exams! You have to repeat your classes\n");
             printf("Do you want personal counselling?\n");
             scanf("%s", &counselling);
@@ -123,7 +123,6 @@ int main ()
                 counselling++;
             }         
             }
-        }
     } else {
         printf("INVALID INPUT!!! Please enter valid marks!\n");
         goto label;
