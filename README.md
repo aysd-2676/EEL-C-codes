@@ -66,3 +66,54 @@ Testing: -
 
 
 
+
+EEL 2
+
+
+The Grade Helper
+
+Stage 1: Empathize, Research: 
+
+
+External links:- National Institute Of Health(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708204/)  Science Direct
+(https://www.sciencedirect.com/science/article/pii/S187704281101946X)
+ 
+India is a country with a diverse population of over 1.3 billion people, and it is facing numerous challenges that affect the mental health and well-being of its citizens.
+The need for counselling in India is becoming increasingly important due to education system, lack of mental health resources, social and cultural pressures etc
+                     So, to reduce this, we created ‘The Grade Helper’
+
+
+
+Stage 2: Define—State Your Users' Needs and Problems: -
+
+ We all know that a student’s career is based on his academic performance. Academic performance is something which may differ from person to person. Students who struggle to excel in their academics often face a lot of issues.
+
+Students who struggle academically often face a multitude of challenges that can impact their academic performance and overall well-being. Some common issues they may encounter include learning difficulties, such as grasping course material or managing their time effectively, which can lead to poor grades and decreased motivation. Additionally, they may struggle with test anxiety, which can cause significant stress and negatively impact their performance on exams. Furthermore, students who are not very good in academics may also face social struggles, such as feeling isolated or struggling to fit in with their peers, which can lead to feelings of loneliness and low self-esteem. These challenges can be overwhelming and may require support from teachers, counselors, or mentors to help students overcome them.
+
+
+Stage 3: Ideate: - 
+
+As per the project, the code was designed to inform the student of his or her grade according to their roll number. However, my group realised that if any student has got lesser grades, they need some help with that. Therefore, we added the input where we would guide the student by making some changes in their schedule by creating a timetable and ensure proper diet, sleep and exercise. And this code also asks the student to make proper notes and ask their doubts to their teachers. This code also asks the student to ask their doubts to their student representatives and mentors if necessary. Also, this code asks the student whether they need personal counselling and assures hm or her that the counsellor will connect with them soon.
+
+
+Stage 4: Prototype: - 
+
+Begin
+For 1st roll no.
+Input subject marks
+Output average grade 
+Avg = (add all subject marks) / 5
+Declare grade (distinction, 1st div, 2nd div, 3rd div or fail)
+Ask if student needs guidance (exception: distinction students are just congratulated)
+If yes inform how to manage studies and ask if counselling is needed if grade is lower ask if they need counselling and assure that counsellor will connect soon
+Thank at the end
+Code loops back and enter marks for next roll no. and this loop goes on until 140 students are reached.
+End 
+
+
+Stage 5: TESTING :-
+
+We decided to make program to solve the problem of various students who need counselling.
+First of all we made a simple program then we did innovation to that program. There were some errors than with the help of google we rectified that problem.
+The code was not working in one of the computer so we sent it to Piyush’s computer where it worked.
+
