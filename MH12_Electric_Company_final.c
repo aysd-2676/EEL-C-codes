@@ -191,9 +191,9 @@ int main() {
 
         if (dom_type == 1) {
             // House
-            int lights, fans, acs, days;
-            double pow_light, pow_fan, pow_ac;
-            int light_time, fans_time, ac_time;
+            int lights, fans, acs, fr, tv, mc, wm, days;
+            double pow_light, pow_fan, pow_ac, frpow, tvpow, mcpow, wmpow;
+            int light_time, fans_time, ac_time, frtime, tvtime, mctime, wmtime;
 
             printf("Enter the number of days in the month for billing: ");
             scanf("%d", &days);
@@ -220,6 +220,39 @@ int main() {
             printf("Enter daily usage of the ACs in hours: ");
             scanf("%d", &ac_time);
             total_power += calculate_bill(pow_ac * acs, ac_time * days);
+
+            printf("How many fridges do you have in the house?\n");
+            scanf("%d", &fr);
+            printf("How powerful is/are your fridge/s?(Watt)\n");
+            scanf("%d", &frpow);
+            printf("For how many hours is/are the fridge/s under usage on a daily basis?\n");
+            scanf("%d", &frtime);
+            total_power += calculate_bill(frpow * fr, frtime * days);
+
+            printf("How many Televisions are in your house?\n");
+            scanf("%d", &tv);
+            printf("How powerful is/are your Television/s?\n");
+            scanf("%d", &tvpow);
+            printf("For how many hours is/are the Television/s under usage?\n");
+            scanf("%d", &tvtime);
+            total_power += calculate_bill(tvpow * tv, tvtime * days);
+
+            printf("How many microwaves do you have in the house?\n");
+            scanf("%d", &mc);
+            printf("How powerful is/are your microwave/s?(Watt)\n");
+            scanf("%d", &mcpow);
+            printf("For how many hours is your microwave under usage on a daily basis?\n");
+            scanf("%d", &mctime);
+            total_power += calculate_bill(mcpow * mc, mctime * days);
+
+            printf("How many Washing Machines do you have?\n");
+            scanf("%d", &wm);
+            printf("How powerful is/are your Washing Machine/s?\n");
+            scanf("%d", &wmpow);
+            printf("For how many hours is/are your Washing Machine/s under usage?\n");
+            scanf("%d", &wmtime);
+            total_power += calculate_bill(wmpow * wm, wmtime * days);
+
 
             total_units = (int)(total_power + 0.5); // Total kWh consumed
         } else if (dom_type == 2) {
