@@ -247,7 +247,7 @@ int main() {
             printf("Enter the daily usage of the fans in hours: ");
             scanf("%d", &fans_time);
 
-            total_power += calculate_bill(pow_fan * fans_per_flat * num_flats, fans_time * days);
+            total_power += calculate_bill(pow_fan * fans_per_flat, fans_time * days);
 
             printf("Enter the power consumed by each AC in kW (if it is present in the clubhouse, 0 if not present): ");
             scanf("%lf", &pow_ac);
@@ -263,7 +263,7 @@ int main() {
             printf("Enter the daily usage of the lights in hours: ");
             scanf("%d", &cam_time);
 
-            total_power += calculate_bill(pow_cam * sec_cams * num_flats, cam_time * days);
+            total_power += calculate_bill(pow_cam * sec_cams, cam_time * days);
 
             // total_power += calculate_bill(pow_light * lights_per_flat * num_flats, light_time * days);
 
