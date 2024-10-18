@@ -67,6 +67,12 @@ Testing: -
 
 
 
+
+
+
+
+
+
 EEL 2
 
 
@@ -119,6 +125,9 @@ First of all we made a simple program then we did innovation to that program. Th
 The code was not working in one of the computer so we sent it to Piyush’s computer where it worked.
 
 MH12 Electric Company
+
+
+
 STEP 1: Empathize, Research
 
 Understanding electricity tariffs is crucial for both residential and industrial consumers. In Mumbai, the cost of electricity varies significantly based on the type of customer (residential vs. industrial), the time of day, and the season. 
