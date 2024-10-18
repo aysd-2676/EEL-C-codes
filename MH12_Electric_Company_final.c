@@ -224,16 +224,16 @@ int main() {
             total_units = (int)(total_power + 0.5); // Total kWh consumed
         } else if (dom_type == 2) {
             // Society
-            int num_flats, lights_per_flat, fans_per_flat, acs_per_flat, days, light_time, fans_time, ac_time;
-            double pow_light, pow_fan, pow_ac;
+            int num_flats, lights_per_flat, fans_per_flat, acs_per_flat, sec_cams, days, light_time, fans_time, ac_time, cam_time;
+            double pow_light, pow_fan, pow_ac, pow_cam;
 
-            printf("Enter the number of flats in the society: ");
+            printf("Enter the number of floors in the society: ");
             scanf("%d", &num_flats);
             printf("Enter the number of days in the month for billing: ");
             scanf("%d", &days);
             printf("Enter the power consumed by each light in kW: ");
             scanf("%lf", &pow_light);
-            printf("Enter the number of lights per flat: ");
+            printf("Enter the number of lights per looby on all flors: ");
             scanf("%d", &lights_per_flat);
             printf("Enter the daily usage of the lights in hours: ");
             scanf("%d", &light_time);
@@ -242,19 +242,30 @@ int main() {
 
             printf("Enter the power consumed by each fan in kW: ");
             scanf("%lf", &pow_fan);
-            printf("Enter the number of fans per flat: ");
+            printf("Enter the number of fans in club house and security cabin (if it exists): ");
             scanf("%d", &fans_per_flat);
             printf("Enter the daily usage of the fans in hours: ");
             scanf("%d", &fans_time);
 
             total_power += calculate_bill(pow_fan * fans_per_flat * num_flats, fans_time * days);
 
-            printf("Enter the power consumed by each AC in kW: ");
+            printf("Enter the power consumed by each AC in kW (if it is present in the clubhouse, 0 if not present): ");
             scanf("%lf", &pow_ac);
-            printf("Enter the number of ACs per flat: ");
+            printf("Enter the number of ACs in the club house (0 if not present): ");
             scanf("%d", &acs_per_flat);
-            printf("Enter the daily usage of the ACs in hours: ");
+            printf("Enter the daily usage of the ACs in hours (0 if not present): ");
             scanf("%d", &ac_time);
+
+            printf("Enter the number of cctv cameras in the society: ");
+            scanf("%d", &sec_cams);
+            printf("Enter the power consumed by each light in kW: ");
+            scanf("%lf", &pow_cam);
+            printf("Enter the daily usage of the lights in hours: ");
+            scanf("%d", &cam_time);
+
+            total_power += calculate_bill(pow_cam * sec_cams * num_flats, cam_time * days);
+
+            // total_power += calculate_bill(pow_light * lights_per_flat * num_flats, light_time * days);
 
             total_power += calculate_bill(pow_ac * acs_per_flat * num_flats, ac_time * days);
 
