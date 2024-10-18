@@ -43,6 +43,7 @@ int main() {
     printf("3) Numerical data should be entered accurately to avoid miscalculation\n");
     printf("4) In case of an error or a miscalculation on the part of the software contact\n   the responsible employees as unnecessary and uninformed may\n   lead to further problems.\n");
     printf("5) Please read the instructions before input carefully. If in any case\n   the instruction is absent, type the answer in small case words.\n");
+    printf("6) Please ensure that you don't give a space in the name you input.\n");
 
     char name[100];
     long int telephone;
