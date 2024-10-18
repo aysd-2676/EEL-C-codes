@@ -113,7 +113,67 @@ End
 
 Stage 5: TESTING :-
 
+
 We decided to make program to solve the problem of various students who need counselling.
 First of all we made a simple program then we did innovation to that program. There were some errors than with the help of google we rectified that problem.
 The code was not working in one of the computer so we sent it to Piyush’s computer where it worked.
 
+MH12 Electric Company
+STEP 1: Empathize, Research
+
+Understanding electricity tariffs is crucial for both residential and industrial consumers. In Mumbai, the cost of electricity varies significantly based on the type of customer (residential vs. industrial), the time of day, and the season. 
+
+1. Tariff Structure: The tariff is essentially a fee charged for electricity consumption, calculated per unit. Different consumer categories (low tension vs. high tension) reflect varying usage patterns and needs. Low tension (LT) consumers typically include households and small businesses, while high tension (HT) customers are larger industries with higher electricity demands.
+
+2. Factors Affecting Tariffs: Several factors influence electricity tariffs:
+   Type of Load: Different devices have different power requirements.
+   Power Rating: The wattage of devices determines how much energy they consume.
+   Usage Timing: Peak vs. off-peak usage can affect rates.
+  Total Energy Used: The cumulative consumption of electricity over a billing period.
+
+By understanding these components, we can better appreciate how industries manage their electricity consumption and costs.
+
+STEP 2: DEFINE: State User Needs
+
+Previously, calculating electricity bills, especially for industries, was a cumbersome process. Users struggled to estimate costs accurately due to the complexity involved in tracking numerous devices and their usage. The need arose for a more straightforward solution—an automated program that could simplify bill calculations, making it easier for users to understand their electricity expenses. 
+
+ STEP 3: Ideate
+
+The primary objective of our program is to calculate the electricity bill for industrial consumers efficiently. Here’s how the program is structured:
+
+1. Input Parameters:
+   - The electricity rate (e.g., 5.00 per unit).
+   - The number of hours the equipment operates.
+   - The quantity of devices such as machines, fans, and lights.
+   - The power rating of each device.
+
+2. Functionality: 
+   - The program calculates the energy consumption for each device type based on user inputs.
+   - It allows users to identify which devices consume the most energy, helping to pinpoint areas for potential energy savings.
+   - Finally, the program sums up the total bill across all devices.
+
+Algorithm:
+1. Start the Program: Initialization.
+2. Input Rate: Gather the cost per unit of electricity.
+3. Input Usage Time: Capture how many hours the devices are in operation.
+4. Input Device Count: Obtain the number of each device type.
+5. Input Power Ratings: Record the wattage for each device.
+6. Calculate Units Consumed: Use the formula \((\text{Power consumed} \times \text{Hours}) / 1000\) to find the total energy used.
+7. Calculate Individual Bills: Multiply units consumed by the rate to find the bill for each device category.
+8. Total Bill Calculation: Sum up the bills from machines, fans, and lights to get the final total.
+9. End Program: Finalize calculations and display results.
+
+STEP 4: Prototype
+
+In this stage, we developed a prototype of our program, focusing on the calculation of units consumed using the formula \((\text{Power consumed} \times \text{Hours}) / 1000\). This calculation allows us to convert the power usage from watts to kilowatt-hours (kWh), the standard billing unit for electricity. Then, we multiplied the units consumed by the defined electricity rate to compute the total cost, facilitating easier financial planning for industrial users.
+
+ STEP 5: TESTING
+
+Once the program was developed, we entered the testing phase. Initial challenges included debugging the input handling and ensuring accurate calculations across different scenarios. We utilized online resources, such as forums and documentation, to troubleshoot these issues. 
+
+The testing process involved running various scenarios to validate that the program could handle different combinations of devices and usage times, ensuring it accurately reflected the expected electricity bills. The feedback collected during testing was instrumental in refining the program, making it user-friendly and reliable.
+
+By following these structured steps, we successfully created a program that not only meets user needs but also enhances understanding of electricity costs in industrial settings.
+
+Final Code github link:
+https://github.com/aysd-2676/My-repository/blob/main/MH12_Electric_Company_final.exe
