@@ -119,8 +119,6 @@ void play_game() {
         printf("Attacking the opponent...\n");
         #ifdef _WIN32
         Sleep(5000); // Sleep for 5 seconds on Windows
-        #else
-        sleep(5); // Sleep for 5 seconds on UNIX/Linux
         #endif
 
         if (user_length > computer_length) {
