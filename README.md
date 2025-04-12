@@ -22,7 +22,7 @@ These programs were created as part of our coursework and explore a variety of a
 | `Jousting.c`                                     | A simulation or simple game inspired by medieval jousting. |
 | `KYG.c`                                          | “Know Your Grades” – another tool for analyzing student marks. |
 | `Lost Person Directory, Maha Police dept.c`      | A system to help log and search for missing persons under the Maharashtra Police framework. |
-| `MH12_Electric_Company_final.c`                  | A mock electricity billing and management system for MH12 zone. |
+| `MH12_Electric_Company_final.c`                  | A mock electricity billing and management system for Pune City. |
 | `Marksheet.c`                                    | Generates a marksheet based on input scores. |
 | `The_Bill_Buzzer.c`                              | Alerts users about their electricity consumption and encourages saving. |
 
